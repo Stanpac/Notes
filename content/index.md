@@ -1,6 +1,4 @@
 ---
-title: Welcome to Quartz
+title: Stanpac Site
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Salut, bienvenue sur mon site, il me sert principalement de carnet de note mais 
