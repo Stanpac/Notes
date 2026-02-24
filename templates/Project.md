@@ -1,8 +1,5 @@
 ---
-title: Basic Notes
+title: Project Name
 draft: false
 tags:
-  -
 ---
- 
- 
