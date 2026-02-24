@@ -1,5 +1,5 @@
 ---
-title: Basic Notes
+title: Contact
 draft: false
 tags:
   -
