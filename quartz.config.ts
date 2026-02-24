@@ -90,7 +90,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
 
-      Plugin.CustomOgImages(
+      Plugin.CustomOgImages({
           colorScheme: "lightMode",
           width: 1200,
           height: 630,
