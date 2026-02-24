@@ -1,5 +1,6 @@
 ---
 title: Home
+socialImage: Backend/Ressources/PacmanIcon
 ---
 ## About This Site  
   
@@ -17,7 +18,7 @@ The goal is to showcase my development work, clarify the technical aspects of ea
 
 ### About  
   
-Learn more about my background, my skills  #TODO
+Learn more about my background, my skills and 
   
 → [[About]]  
 → [[Contact]]
@@ -27,6 +28,7 @@ Learn more about my background, my skills  #TODO
   
 A list of completed and ongoing game projects, including technical details and my role in each.
   
-→ [[Projects/index]]
+→ [[Projects/index|Projects]]
   
 ---
+
