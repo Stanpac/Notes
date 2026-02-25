@@ -1,10 +1,21 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// hide the footer
 footer {
     display: none;
 }
 
-.explorer .explorer-header {
-    display: none;
+/* Hide Explorer header (title + fold chevron) on desktop */
+.explorer button.title-button.explorer-toggle.desktop-explorer {
+    display: none !important;
+}
+
+/* Optional: hide the mobile toggle button too */
+.explorer button.mobile-explorer.explorer-toggle {
+    display: none !important;
+}
+
+/* Ensure content is visible even without the header */
+.explorer .explorer-content {
+    display: block !important;
 }

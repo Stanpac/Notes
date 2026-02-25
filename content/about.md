@@ -10,7 +10,7 @@ Now, my goal is to create games that other people can love.
 ## What i can do
 
 **Engine** : Unreal, Unity  
-**Language** : C#, C++, Blueprints  
+**Language** : C++, C#, Blueprints  
 **Versioning** : Git, GitHub, Perforce, Diversion  
 
 My main strength is gameplay programming but I can also contribute by developing tools within the engine, and thanks to my background, I am able to support game design when needed.
@@ -20,9 +20,8 @@ If a role requires it, I am willing and able to learn a new programming language
 ## Education 
 
 
+WIP
 
-
-## 
 
 
 
