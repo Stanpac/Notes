@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Stanpac",
-    pageTitleSuffix: "| Stanpac",
+    pageTitleSuffix: " | Stanpac",
     enableSPA: true,
     enablePopovers: true,
     analytics: {

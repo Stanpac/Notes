@@ -1,7 +1,8 @@
 ---
-title: Basic Notes
+title: Notes
 tags:
   - TODO
 ---
+
 Test
  

@@ -20,8 +20,8 @@ The goal is to showcase my development work, clarify the technical aspects of ea
   
 Learn more about my background, my skills and 
   
-[[Abouttemp]]  
-[[Contacttemp]]
+[[about]]  
+[[contact]]
   
 ---
 ### Projects  
