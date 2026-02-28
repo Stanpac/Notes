@@ -1,7 +1,7 @@
 ---
 title: About
 ---
-## Who i Am 
+## Who i am 
 
 Hi, I’m Stanislas Fritsch, a game developer specialized in gameplay programming and system design.  
 I first discovered video games with my father and older brother, and I believe my passion for them today comes from those early experiences.  
@@ -19,10 +19,14 @@ If a role requires it, I am willing and able to learn a new programming language
 
 ## Education 
 
+Master in Game Programming  — [ICAN Paris]
+2023 – 2025
 
-WIP
+Bachelor in Game Design  — [ICAN Paris]
+2020 – 2023
 
-
+During my studies, I focused on gameplay programming, system architecture and tooling.
+I worked on multiple team projects where I contributed as a gameplay programmer, implementing core mechanics, player systems, and reusable tools.
 
 
 

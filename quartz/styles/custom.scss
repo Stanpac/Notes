@@ -19,3 +19,23 @@ footer {
 .explorer .explorer-content {
     display: block !important;
 }
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:16px;
+}
+.project-card{
+    display:block;
+    text-decoration:none;
+}
+.project-card img{
+    width:100%;
+    aspect-ratio:16/9;
+    object-fit:cover;
+    border-radius:12px;
+}
+.project-title{
+    margin-top:8px;
+    font-weight:600;
+}
