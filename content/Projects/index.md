@@ -29,12 +29,12 @@ Short summary.
 
 <div class="project-grid">
   <a class="project-card" href="./my-game-1">
-    <img src="/Projects/assets/ImageProjectTest.png" alt="My Project 1 cover">
+    <img src="/Projects/Assets/ImageProjectTest.png" alt="My Project 1 cover">
     <div class="project-title">My Project 1</div>
   </a>
 
   <a class="project-card" href="./my-game-2">
-    <img src="/Projects/assets/ImageProjectTest.png" alt="My Project 2 cover">
+    <img src="/Projects/Assets/ImageProjectTest.png" alt="My Project 2 cover">
     <div class="project-title">My Project 2</div>
   </a>
 </div>
