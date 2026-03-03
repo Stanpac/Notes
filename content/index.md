@@ -1,6 +1,5 @@
 ---
 title: Home
-socialImage: Backend/Ressources/PacmanIcon.png
 ---
 ## About This Site  
   

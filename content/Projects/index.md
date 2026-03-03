@@ -1,41 +1,45 @@
 ---
 title: Projects
-tags:
+cssclasses:
+  - projects-index
 ---
-# Projects  
-  
-All of my public projects are listed below. You will find a quick overview here and a detailed breakdown on each project page.
 
----  
-  
-## 🎮 [Project Name 1](./project-name-1)  
-  
-Short 2–3 lines summary:  
-A third-person action prototype focused on modular combat systems  
-and state-driven character abilities.  
-  
-**Engine:** Unreal  
-**Role:** Gameplay Programmer
-  
----  
+All of my projects are listed below. You will find a quick overview here and a detailed breakdown on each project page.
 
-## 🎮 [Project Name 2](./project-name-2)  
-  
-Short summary.  
-  
-**Engine:** Unity  
-**Role:** Gameplay Programmer
-
+---
 
 <div class="project-grid">
-  <a class="project-card" href="./my-game-1">
-    <img src="/Projects/Assets/ImageProjectTest.png" alt="My Project 1 cover">
-    <div class="project-title">My Project 1</div>
-  </a>
+<div class="card">
 
-  <a class="project-card" href="./my-game-2">
-    <img src="/Projects/Assets/ImageProjectTest.png" alt="My Project 2 cover">
-    <div class="project-title">My Project 2</div>
-  </a>
+### [[Excroaalibur|Excroaalibur]]
+![Excroaalibur cover](/Projects/Assets/imageProjectTest.png)
+`Unity` `C#` `Game Jam` `2022`  
+48h solo game jam — narrative puzzle, art, sound and build pipeline all done in one weekend.
+
+</div>
+<div class="card">
+
+### [[Unannounced project|Unannounced project]]
+![Unannounced project cover](/Projects/Assets/imageProjectTest.png)
+`Unity` `C#` `Game Jam` `2022`  
+48h solo game jam — narrative puzzle, art, sound and build pipeline all done in one weekend.
+
+</div>
+<div class="card">
+
+### [[Bastos|Bastos]]
+![Bastos cover](/Projects/Assets/imageProjectTest.png)
+`Unreal Engine 5` `C++` `Plugin` `2023`  
+UE5 plugin for deterministic physics simulation in competitive multiplayer, with a custom editor debug panel.
+
+</div>
+<div class="card">
+
+### [[Apotixia|Apotixia]]
+![Apotixia cover](/Projects/Assets/imageProjectTest.png)
+`Unity` `C#` `Game Jam` `2022`  
+48h solo game jam — narrative puzzle, art, sound and build pipeline all done in one weekend.
+
+</div>
 </div>
 
