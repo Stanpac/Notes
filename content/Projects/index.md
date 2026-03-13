@@ -39,7 +39,7 @@ Gameplay & Tools programmer
 
 <div class="card">
 <a href="/Projects/bastos">
-<img class="card-img-top" src="/Projects/Assets/Bastos/Bastos_Screenshoot_1.jpg" alt="Bastos">
+<img class="card-img-top" src="/Projects/Assets/Bastos/Bastos_Screenshoot_1.JPG" alt="Bastos">
 <div class="card-body">
 
 ### Bastos

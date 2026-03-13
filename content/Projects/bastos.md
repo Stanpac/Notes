@@ -36,11 +36,11 @@ try to catch the reader's attention and make them want to learn more about the p
 ## Screenshots
 
 <Carousel>
-<img src="/Projects/Assets/Bastos/Bastos_Screenshoot_1.jpg" alt="Screenshot 1">
-<img src="/Projects/Assets/Bastos/Bastos_Screenshoot_2.jpg" alt="Screenshot 2">
-<img src="/Projects/Assets/Bastos/Bastos_Screenshoot_3.jpg" alt="Screenshot 3">
-<img src="/Projects/Assets/Bastos/Bastos_Screenshoot_4.jpg" alt="Screenshot 4">
-<img src="/Projects/Assets/Bastos/Bastos_Screenshoot_5.jpg" alt="Screenshot 5">
+<img src="/Projects/Assets/Bastos/Bastos_Screenshoot_1.JPG" alt="Screenshot 1">
+<img src="/Projects/Assets/Bastos/Bastos_Screenshoot_2.JPG" alt="Screenshot 2">
+<img src="/Projects/Assets/Bastos/Bastos_Screenshoot_3.JPG" alt="Screenshot 3">
+<img src="/Projects/Assets/Bastos/Bastos_Screenshoot_4.JPG" alt="Screenshot 4">
+<img src="/Projects/Assets/Bastos/Bastos_Screenshoot_5.JPG" alt="Screenshot 5">
 </Carousel>
 
 ## Gameplay
