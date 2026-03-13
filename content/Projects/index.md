@@ -11,7 +11,7 @@ All of my projects are listed below. You will find a quick overview here and a d
 <div class="project-grid">
 
 <div class="card">
-<a href="/Projects/Excroaalibur">
+<a href="/Projects/excroaalibur">
 <img class="card-img-top" src="/Projects/Assets/Excroaalibur/Excroaalibur_Screenshoot_1.png" alt="Excroaalibur">
 <div class="card-body">
 
@@ -19,13 +19,12 @@ All of my projects are listed below. You will find a quick overview here and a d
 Lead programmer
 
 `Unity` `C#` `Independent project` `2022`
-
 </div>
 </a>
 </div>
 
 <div class="card">
-<a href="/Projects/UnannouncedProject">
+<a href="/Projects/unannouncedProject">
 <img class="card-img-top" src="/Projects/Assets/imageProjectTest.png" alt="Unannounced project">
 <div class="card-body">
 
@@ -39,7 +38,7 @@ Gameplay & Tools programmer
 </div>
 
 <div class="card">
-<a href="/Projects/Bastos">
+<a href="/Projects/bastos">
 <img class="card-img-top" src="/Projects/Assets/Bastos/Bastos_Screenshoot_1.jpg" alt="Bastos">
 <div class="card-body">
 
@@ -53,7 +52,7 @@ Gameplay programmer
 </div>
 
 <div class="card">
-<a href="/Projects/Apotixia">
+<a href="/Projects/apotixia">
 <img class="card-img-top" src="/Projects/Assets/Apotixia/Apotixia_Screenshoot_1.png" alt="Apotixia">
 <div class="card-body">
 
@@ -67,7 +66,7 @@ Gameplay programmer
 </div>
 
 <div class="card portrait">
-<a href="/Projects/Roadtrip">
+<a href="/Projects/roadtrip">
 <img class="card-img-top" src="/Projects/Assets/Roadtrip/Roadtrip_Screenshoot_1.png" alt="Roadtrip">
 <div class="card-body">
 
@@ -81,7 +80,7 @@ Gameplay programmer
 </div>
 
 <div class="card">
-<a href="/Projects/QuantumShift">
+<a href="/Projects/quantumShift">
 <img class="card-img-top" src="/Projects/Assets/QuantumShift/QuantumShift_Screenshoot_1.png" alt="QuantumShift">
 <div class="card-body">
 
@@ -95,7 +94,7 @@ Lead programmer
 </div>
 
 <div class="card">
-<a href="/Projects/GhostBusterGo">
+<a href="/Projects/ghostBusterGo">
 <img class="card-img-top" src="/Projects/Assets/GhostBusterGo/GhostBusterGo_Screenshoot_1.png" alt="GhostBusterGo">
 <div class="card-body">
 
@@ -109,7 +108,7 @@ Lead programmer
 </div>
 
 <div class="card">
-<a href="/Projects/Ohari">
+<a href="/Projects/ohari">
 <img class="card-img-top" src="/Projects/Assets/Ohari/Ohari_Screenshoot_1.jpg" alt="Ohari">
 <div class="card-body">
 
@@ -123,7 +122,7 @@ Gameplay programmer
 </div>
 
 <div class="card">
-<a href="/Projects/Araka">
+<a href="/Projects/araka">
 <img class="card-img-top" src="/Projects/Assets/Araka/Araka_Screenshoot_1.png" alt="Araka">
 <div class="card-body">
 
