@@ -12,7 +12,7 @@ It gathers:
   
 The goal is to showcase my development work, clarify the technical aspects of each project, and collect insights and notes on topics I find interesting.
 
----
+
 ## Navigation
 
 ### About  

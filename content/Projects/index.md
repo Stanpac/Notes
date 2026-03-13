@@ -9,37 +9,131 @@ All of my projects are listed below. You will find a quick overview here and a d
 ---
 
 <div class="project-grid">
-<div class="card">
 
-### [[Excroaalibur|Excroaalibur]]
-![Excroaalibur cover](/Projects/Assets/imageProjectTest.png)
-`Unity` `C#` `Game Jam` `2022`  
-48h solo game jam — narrative puzzle, art, sound and build pipeline all done in one weekend.
+<div class="card">
+<a href="/Projects/Excroaalibur">
+<img class="card-img-top" src="/Projects/Assets/Excroaalibur/Excroaalibur_Screenshoot_1.png" alt="Excroaalibur">
+<div class="card-body">
+
+### Excroaalibur
+Lead programmer
+
+`Unity` `C#` `Independent project` `2022`
 
 </div>
-<div class="card">
+</a>
+</div>
 
-### [[Unannounced project|Unannounced project]]
-![Unannounced project cover](/Projects/Assets/imageProjectTest.png)
-`Unity` `C#` `Game Jam` `2022`  
-48h solo game jam — narrative puzzle, art, sound and build pipeline all done in one weekend.
+<div class="card">
+<a href="/Projects/UnannouncedProject">
+<img class="card-img-top" src="/Projects/Assets/imageProjectTest.png" alt="Unannounced project">
+<div class="card-body">
+
+### Unannounced Project
+Gameplay & Tools programmer
+
+`Unreal Engine 5` `C++` `Blueprints` `Professional project` `2024-2025`
 
 </div>
-<div class="card">
+</a>
+</div>
 
-### [[Bastos|Bastos]]
-![Bastos cover](/Projects/Assets/imageProjectTest.png)
-`Unreal Engine 5` `C++` `Plugin` `2023`  
-UE5 plugin for deterministic physics simulation in competitive multiplayer, with a custom editor debug panel.
+<div class="card">
+<a href="/Projects/Bastos">
+<img class="card-img-top" src="/Projects/Assets/Bastos/Bastos_Screenshoot_1.jpg" alt="Bastos">
+<div class="card-body">
+
+### Bastos
+Gameplay programmer
+
+`Unreal Engine 5` `C++` `School project` `2025`
 
 </div>
+</a>
+</div>
+
 <div class="card">
+<a href="/Projects/Apotixia">
+<img class="card-img-top" src="/Projects/Assets/Apotixia/Apotixia_Screenshoot_1.png" alt="Apotixia">
+<div class="card-body">
 
-### [[Apotixia|Apotixia]]
-![Apotixia cover](/Projects/Assets/imageProjectTest.png)
-`Unity` `C#` `Game Jam` `2022`  
-48h solo game jam — narrative puzzle, art, sound and build pipeline all done in one weekend.
+### Apotixia
+Gameplay programmer
 
+`Unreal Engine 5` `C++` `Blueprints` `School project` `2025`
+
+</div>
+</a>
+</div>
+
+<div class="card portrait">
+<a href="/Projects/Roadtrip">
+<img class="card-img-top" src="/Projects/Assets/Roadtrip/Roadtrip_Screenshoot_1.png" alt="Roadtrip">
+<div class="card-body">
+
+### Roadtrip
+Gameplay programmer
+
+`Unity` `C#` `School project` `2024`
+
+</div>
+</a>
+</div>
+
+<div class="card">
+<a href="/Projects/QuantumShift">
+<img class="card-img-top" src="/Projects/Assets/QuantumShift/QuantumShift_Screenshoot_1.png" alt="QuantumShift">
+<div class="card-body">
+
+### QuantumShift
+Lead programmer
+
+`Unreal Engine 5` `C++` `Blueprints` `School project` `2024`
+
+</div>
+</a>
+</div>
+
+<div class="card">
+<a href="/Projects/GhostBusterGo">
+<img class="card-img-top" src="/Projects/Assets/GhostBusterGo/GhostBusterGo_Screenshoot_1.png" alt="GhostBusterGo">
+<div class="card-body">
+
+### GhostBusterGo
+Lead programmer
+
+`Unreal Engine 5` `C++` `Blueprints` `School project` `2023`
+
+</div>
+</a>
+</div>
+
+<div class="card">
+<a href="/Projects/Ohari">
+<img class="card-img-top" src="/Projects/Assets/Ohari/Ohari_Screenshoot_1.jpg" alt="Ohari">
+<div class="card-body">
+
+### Ohari
+Gameplay programmer
+
+`Unity` `C#` `School project` `2023`
+
+</div>
+</a>
+</div>
+
+<div class="card">
+<a href="/Projects/Araka">
+<img class="card-img-top" src="/Projects/Assets/Araka/Araka_Screenshoot_1.png" alt="Araka">
+<div class="card-body">
+
+### Araka
+Gameplay programmer
+
+`Unity` `C#` `School project` `2022`
+
+</div>
+</a>
 </div>
 </div>
 

@@ -1,7 +1,7 @@
 ---
 title: Notes
 tags:
-  - TODO
+draft: true
 ---
-WIP
+
  

@@ -1,121 +1,170 @@
 @use "./base.scss";
 
-// hide the footer
+// ================================================
+// GLOBAL
+// ================================================
+
 footer {
     display: none;
 }
 
+// Hide explorer header (title + chevron) on desktop, keep content visible
 .explorer {
-    button.title-button.explorer-toggle.desktop-explorer { // Hide Explorer header (title + fold chevron) on desktop
-        display: none !important;
+    button.title-button.explorer-toggle.desktop-explorer {
+        display: none;
     }
 
-    button.mobile-explorer.explorer-toggle {  // Optional: hide the mobile toggle button too
-        display: none !important;
-    }
-
-    .explorer-content { // Ensure content is visible even without the header
-        display: block !important;
-    }
-}
-
-.projects-index .project-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-    margin-top: 32px;
-
-    @media (max-width: 700px) {
-        grid-template-columns: 1fr;
-    }
-}
-
-.projects-index .card {
-    background: var(--light);
-    border: 1px solid var(--lightgray);
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-    position: relative;
-    opacity: 0;
-    transform: translateY(24px);
-    animation: cardFadeIn 0.5s ease forwards;
-
-    &:hover {
-        transform: translateY(-5px);
-        border-color: var(--secondary);
-        box-shadow: 0 16px 48px rgba(0,0,0,0.3), 0 0 32px rgba(0,0,0,0.06);
-
-        img {
-            transform: scale(1.07);
-        }
-    }
-
-    a {
+    .explorer-content {
         display: block;
-        text-decoration: none !important;
-        color: inherit;
-    }
-
-    img {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-        object-fit: cover;
-        display: block;
-        transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
-    }
-
-    h3 {
-        font-size: 1.1rem;
-        font-weight: 700;
-        padding: 14px 18px 4px;
-        margin: 0;
-        color: var(--dark);
-
-        a::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            z-index: 1;
-        }
-
-        a.internal {
-            background-color: transparent;
-            padding: 0;
-            border-radius: 0;
-        }
-
-        a[role="anchor"] {
-            display: none;
-        }
-    }
-
-    code {
-        font-size: 0.62rem;
-        color: var(--secondary);
-        background: color-mix(in srgb, var(--secondary) 10%, transparent);
-        border: 1px solid color-mix(in srgb, var(--secondary) 25%, transparent);
-        border-radius: 3px;
-        padding: 2px 7px;
-        margin: 0 2px;
-    }
-
-    p {
-        font-size: 0.87rem;
-        color: var(--gray);
-        line-height: 1.6;
-        padding: 6px 18px 18px;
-        margin: 0;
     }
 }
+
+// ================================================
+// PROJECTS INDEX — cssclasses: projects-index
+// ================================================
 
 .projects-index {
+
+    // Grid layout
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        margin-top: 32px;
+
+        @media (max-width: 700px) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    // Staggered fade-in animation
     @for $i from 1 through 20 {
         .card:nth-child(#{$i}) {
             animation-delay: #{$i * 0.1}s;
         }
     }
+
+    // Card base
+    .card {
+        height: 100%;
+        background: var(--light);
+        border: 1px solid var(--lightgray);
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        padding: 0;
+        opacity: 0;
+        transform: translateY(24px);
+        animation: cardFadeIn 0.5s ease forwards;
+        transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+            transform: translateY(-5px);
+            border-color: var(--secondary);
+            box-shadow: 0 16px 48px rgba(0,0,0,0.3), 0 0 32px rgba(0,0,0,0.06);
+
+            .card-img-top {
+                transform: scale(1.07);
+            }
+        }
+
+        // Lien qui wrappe l'img
+        a {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+        }
+
+        // Image arrondie en haut
+        .card-img-top {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+            border-radius: 10px 10px 0 0;
+            margin: 0;
+            transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        // Zone de contenu
+        .card-body {
+            padding: 12px 14px 14px;
+
+
+            h3 {
+                font-size: 1.1rem;
+                font-weight: 700;
+                margin: 0 0 4px;
+                color: var(--dark);
+
+                a.internal {
+                    background-color: transparent;
+                    padding: 0;
+                    border-radius: 0;
+                }
+
+                a[role="anchor"] {
+                    display: none;
+                }
+
+                a::after {
+                    content: "";
+                    position: absolute;
+                    inset: 0;
+                    z-index: 1;
+                }
+            }
+
+            h3 + p:empty {
+                display: none;
+            }
+
+            // Description
+            p {
+                font-size: 0.87rem;
+                color: var(--gray);
+                line-height: 1.6;
+                margin: 0 0 8px;
+                text-align: left;
+            }
+
+            // Tags
+            code {
+                display: inline-block;
+                font-weight: 600;
+                font-size: 0.72rem;
+                color: var(--dark);
+                background: color-mix(in srgb, var(--secondary) 5%, transparent);
+                border: 1px solid color-mix(in srgb, var(--secondary) 10%, transparent);
+                border-radius: 3px;
+                padding: 2px 7px;
+                margin: 0 2px 4px;
+            }
+        }
+    }
+
+    // Portrait image variant — add class="card portrait" in markdown
+    .card.portrait img {
+        aspect-ratio: 9 / 16;
+        max-height: 200px;
+        object-fit: contain;
+        background: var(--lightgray);
+    }
 }
+
+// Hide Quartz popovers on the projects index page
+body[data-slug="Projects/index"] .popover {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+// ================================================
+// ANIMATIONS
+// ================================================
 
 @keyframes cardFadeIn {
     to {
@@ -123,74 +172,3 @@ footer {
         transform: translateY(0);
     }
 }
-
-body[data-slug="Projects/index"] .popover { // hide the popover anchor links on the project index page
-    display: none;
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-}
-
-/*.projects-index { // hide the anchor links on the project index page
-    .card h3 a[role="anchor"] {
-        display: none;
-    }
-}*/
-
-/*.projects-index .card code {
-    font-size: 0.62rem;
-    color: var(--secondary);
-    background: color-mix(in srgb, var(--secondary) 10%, transparent);
-    border: 1px solid color-mix(in srgb, var(--secondary) 25%, transparent);
-    border-radius: 3px;
-    padding: 2px 7px;
-    margin: 0 2px;
-}*/
-
-/*.projects-index .card p {
-    font-size: 0.87rem;
-    color: var(--gray);
-    line-height: 1.6;
-    padding: 6px 18px 18px;
-    margin: 0;
-}*/
-
-/*.projects-index .card h3 a.internal {
-    background-color: transparent;
-    padding: 0;
-    border-radius: 0;
-}*/
-
-
-/*.projects-index .card h3 a::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-}*/
-
-/*.projects-index .card a {
-    display: block;
-    text-decoration: none !important;
-    color: inherit;
-}*/
-
-/*.projects-index .card img {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
-}*/
-
-/*.projects-index .card h3 {
-    font-size: 1.1rem;
-    font-weight: 700;
-    padding: 14px 18px 4px;
-    margin: 0;
-    color: var(--dark);
-}*/
-
-/*.projects-index .card:hover img {
-    transform: scale(1.07);
-}*/

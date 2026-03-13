@@ -1,8 +1,5 @@
 ---
 title: Basic Notes
-draft: false
 tags:
-  - TODO
 ---
-WIP
- 
+Template Notes 

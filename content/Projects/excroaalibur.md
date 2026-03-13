@@ -1,15 +1,15 @@
 ---
-title: Project Name
-description: describes the project in a few words.
-engine:
-language:
-role:
-team:
-duration:
-year:
-github: ""
-itch: ""
-build: "" 
+title: Excroaalibur
+description: Fast-paced turn-based tactical game
+engine: Unity 
+language: C#
+role: Lead Programmer
+team: 10 people
+duration: 5 month
+year: 2025-2026
+github: "https://github.com/pacistan/Excroaalibur"
+itch: "https://sneakysunset.itch.io/araka"
+build: ""
 trailer: ""
 ---
 
@@ -18,28 +18,25 @@ trailer: ""
 Short description of the project, what it is, what it's about, and why it's interesting.
 try to catch the reader's attention and make them want to learn more about the project.
 
+
 ## Technical Details
 
-- **Moteur** : Unreal Engine 5
-- **Langage** : C++
-- **Rôle** : Gameplay Programmer
-- **Team** : 4 people
-- **Years** : 2024
-- **Version Control** :
+- **Moteur** : Unity
+- **Langage** : C#
+- **Rôle** : Lead Programmer
+- **Team** :10 people
+- **Years** : 2025-2026
+- **Version Control** : git
 
 ## Links
 
-- [Trailer](#)
-- [play on itch.io](#) // if there is a playable build on itch.io
-- [Download build](#)
-- [GitHub](#)
+- [play on itch.io](c)
+- [GitHub](https://github.com/pacistan/Excroaalibur)
 
 ## Screenshots
 
 <Carousel>
-<img src="/projects/NomProjet/Assets/screenshot-01.png" alt="Screenshot 1">
-<img src="/projects/NomProjet/Assets/screenshot-02.png" alt="Screenshot 2">
-<img src="/projects/NomProjet/Assets/screenshot-03.png" alt="Screenshot 3">
+<img src="/Projects/Assets/Excroaalibur/Excroaalibur_Screenshoot_1.png" alt="Screenshot 1">
 </Carousel>
 
 ## Gameplay

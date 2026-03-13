@@ -72,6 +72,8 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.ClickableImages(),
+      Plugin.Carousel(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
@@ -92,5 +94,7 @@ const config: QuartzConfig = {
     ],
   },
 }
+
+
 
 export default config
