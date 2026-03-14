@@ -21,9 +21,10 @@ WIP
 
 - **Moteur** : Unreal Engine 5
 - **Langage** : C++
+- **Version Control** : git, perforce
 - **Rôle** : Gameplay Programmer
 - **Team** : 4 people
 - **Years** : 2024
-- **Version Control** : git, perforce
+- **Duration** : 2 years
 
 

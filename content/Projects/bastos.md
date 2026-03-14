@@ -15,17 +15,18 @@ trailer: ""
 
 ## Overview
 
-Short description of the project, what it is, what it's about, and why it's interesting.
-try to catch the reader's attention and make them want to learn more about the project.
+Bastos is an FPS game where the bullets loaded in the magazine can each have a different effect. This creates a unique combat system in which the player must not only aim and react quickly, but also adapt to the order and type of ammo available.  
+The result is a fast-paced experience that mixes action, strategy, and unpredictability.
 
 ## Technical Details
 
 - **Moteur** : Unreal Engine 5
 - **Langage** : C++, Blueprints
+- **Version Control** : Diversion
 - **Rôle** : Programmer
 - **Team** : 5 people
 - **Years** : 2026
-- **Version Control** : Diversion
+- **Duration** : 6 months
 
 ## Links
 
@@ -43,22 +44,19 @@ try to catch the reader's attention and make them want to learn more about the p
 <img src="/Projects/Assets/Bastos/Bastos_Screenshoot_5.JPG" alt="Screenshot 5">
 </Carousel>
 
-## Gameplay
-
-What is the gameplay like? What are the core mechanics? What makes it fun and engaging?
-Describe the player's experience and how the mechanics support that experience.
-
 ## My Role
 
-Describe my role in the project, what i were responsible for, and how i contributed to the overall project.
-
+As the sole developer, I handled all programming tasks and a significant part of the integration work. I implemented the core gameplay systems, developed the main features, and made sure the different elements of the project worked together smoothly.  
+I was also responsible for in-engine setup, including animation management, UI integration, and system configuration, which allowed me to contribute to both the technical foundation and the final playable experience.
 ## Challenges
 
-What were the main challenges i faced during the development of this project?
-How did i overcome them? What did i learn from those challenges?
+One of the biggest challenges in this project was building a system capable of handling both player stats and bullets with different effects in a clean and consistent way. To solve this, I developed a custom ability system along with a stat system, which allowed the different gameplay mechanics to connect properly and remain flexible.  
+Designing this architecture was a significant challenge, because everything needed to fit together without becoming difficult to maintain. The final result was a robust system that made it possible to create and test bullet effects quickly in Blueprint, while keeping the project structured and scalable.
+
+Another important challenge was setting up the animation controller correctly inside the engine. Learning how to organize it properly and connect it with gameplay logic was essential to achieving a smoother and more polished result.
 
 ## Conclusion
 
-What are my overall thoughts on this project ?
-if i want to add some thoughts. 
+Working as the sole developer on this Unreal Engine project was both demanding and highly rewarding. It challenged me to take ownership of multiple aspects of development, from gameplay programming to integration, and helped me grow through direct, practical experience.  
+Beyond the technical challenges, this project was also a very enjoyable one to build. It allowed me to explore creative ideas, strengthen my skills, and deliver a complete experience that reflects both my technical abilities and my enthusiasm for game development.
 

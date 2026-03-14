@@ -21,10 +21,11 @@ WIP
 
 - **Moteur** : Unreal Engine 5
 - **Langage** : C++, Blueprints
+- **Version Control** : gitlab
 - **Rôle** : Lead Programmer
 - **Team** : 5 people
 - **Years** : 2023
-- **Version Control** : gitlab
+- **Duration** : 3 months
 
 ## Links
 
@@ -36,10 +37,6 @@ WIP
 <Carousel>
 <img src="/Projects/Assets/GhostBusterGo/GhostBusterGo_Screenshoot_1.png" alt="Screenshot 1">
 </Carousel>
-
-## Gameplay
-
-WIP
 
 ## My Role
 

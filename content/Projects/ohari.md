@@ -15,18 +15,19 @@ trailer: "https://youtu.be/yTN-SgS8Dxw"
 
 ## Overview
 
-Short description of the project, what it is, what it's about, and why it's interesting.
-try to catch the reader's attention and make them want to learn more about the project.
-
+Walk around, equipped with your photo camera and take pictures of this strange world's fauna and flora. 
+Check around the corners, understand the different creatures to progress and use your pictures to write down what you've learned. 
+As you move forward, watch your encyclopedia grows, fill in all of your last pictures and find everything this world has to offer through your lens. Let your creativity guide you.
 
 ## Technical Details
 
 - **Moteur** : Unity
 - **Langage** : C#
+- **Version Control** : git
 - **Rôle** : Lead Programmer
 - **Team** : 5 people
 - **Years** : 2023
-- **Version Control** : git
+- **Duration** : 6 months
 
 ## Links
 
@@ -44,22 +45,20 @@ try to catch the reader's attention and make them want to learn more about the p
 <img src="/Projects/Assets/Ohari/Ohari_Screenshoot_5.jpg" alt="Screenshot 5">
 </Carousel>
 
-## Gameplay
-
-What is the gameplay like? What are the core mechanics? What makes it fun and engaging?
-Describe the player's experience and how the mechanics support that experience.
-
 ## My Role
 
-Describe my role in the project, what i were responsible for, and how i contributed to the overall project.
+As part of a team of three developers, I was responsible for the 3Cs (Character, Camera, and Controls) as well as the AI state machines. My work focused on creating a solid player feel and implementing the behavior logic used by the game’s AI.  
+This was my first time developing this kind of AI system, so it was a great opportunity to learn how state machines work and how to build structured and believable in-game behaviors. Developing the 3Cs also allowed me to deepen my understanding of maths and physics, which were essential for creating responsive movement and a satisfying gameplay experience.
 
 ## Challenges
 
-What were the main challenges i faced during the development of this project?
-How did i overcome them? What did i learn from those challenges?
+One of the biggest challenges in this project was working on the character’s physics. The game featured many edges and areas with open voids, but the player was not supposed to fall, which made movement behavior difficult to design and tune correctly. Finding the right balance between believable interactions and stable gameplay took a lot of work.
+
+Another difficulty came from handling certain creature states, especially movement states. One of the creatures had to move in a straight line while still adapting properly to the curves of the environment, which made its behavior particularly tricky to implement. This required a lot of testing and iteration to achieve a satisfying result.
+
+At the time, building a proper third-person controller in Unity was also a challenge for me. It was an important learning experience that helped me better understand movement systems, camera setup, and player control in a 3D game.
 
 ## Conclusion
 
-What are my overall thoughts on this project ?
-if i want to add some thoughts. 
-
+I really enjoyed working on this project. The team was great, and I am very happy with what we achieved together. It was a rewarding experience both technically and personally.  
+I would also love to work more on the AI systems for this project, as I think there are still many interesting ideas and improvements that could be explored.

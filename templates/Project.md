@@ -22,10 +22,12 @@ try to catch the reader's attention and make them want to learn more about the p
 
 - **Moteur** : Unreal Engine 5
 - **Langage** : C++
+- **Version Control** :
 - **Rôle** : Gameplay Programmer
 - **Team** : 4 people
 - **Years** : 2024
-- **Version Control** :
+- **Duration** : 3 months
+
 
 ## Links
 

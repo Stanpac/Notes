@@ -21,10 +21,11 @@ Araka is a turned based mobile puzzle game where the player needs to progress th
 
 - **Moteur** : Unity
 - **Langage** : C#
+- **Version Control** : git
 - **Rôle** : Programmer, Game designer
 - **Team** : 5 people
 - **Years** : 2022
-- **Version Control** : git
+- **Duration** : 3 months
 
 ## Links
 

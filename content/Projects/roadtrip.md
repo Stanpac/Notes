@@ -21,10 +21,11 @@ WIP
 
 - **Moteur** : Unity
 - **Langage** : C#
+- **Version Control** : git
 - **Rôle** : Programmer
 - **Team** : 6 people
 - **Years** : 2024
-- **Version Control** : git
+- **Duration** : 3 months
 
 ## Links
 
@@ -37,10 +38,6 @@ WIP
 <img src="/Projects/Assets/Roadtrip/Roadtrip_Screenshoot_1.png" alt="Screenshoot 1">
 <img src="/Projects/Assets/Roadtrip/Roadtrip_Screenshoot_2.png" alt="Screenshoot 2">
 </Carousel>
-
-## Gameplay
-
-WIP
 
 ## My Role
 

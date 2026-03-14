@@ -21,10 +21,11 @@ WIP
 
 - **Moteur** : Unreal Engine 5
 - **Langage** : C++, Blueprints
+- **Version Control** : git
 - **Rôle** : Lead Programmer
 - **Team** : 5 people
 - **Years** : 2024
-- **Version Control** : git
+- **Duration** : 3 months
 
 ## Links
 
@@ -37,10 +38,6 @@ WIP
 <img src="/Projects/Assets/QuantumShift/QuantumShift_Screenshoot_1.png" alt="Screenshot 1">
 <img src="/Projects/Assets/QuantumShift/QuantumShift_Screenshoot_2.png" alt="Screenshot 2">
 </Carousel>
-
-## Gameplay
-
-WIP
 
 ## My Role
 

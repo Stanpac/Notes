@@ -18,15 +18,15 @@ trailer: ""
 Short description of the project, what it is, what it's about, and why it's interesting.
 try to catch the reader's attention and make them want to learn more about the project.
 
-
 ## Technical Details
 
 - **Moteur** : Unity
 - **Langage** : C#
+- **Version Control** : git
 - **Rôle** : Lead Programmer
 - **Team** :10 people
 - **Years** : 2025-2026
-- **Version Control** : git
+- **Duration** : 5 months
 
 ## Links
 

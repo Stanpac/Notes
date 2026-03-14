@@ -22,10 +22,11 @@ Everyone prepares actions at the same time, then watches them unfold together, c
 
 - **Moteur** : Unreal Engine 5
 - **Langage** : C++,  Blueprints
+- **Version Control** : git
 - **Rôle** : Programmer
 - **Team** : 6 people
 - **Years** : 2025
-- **Version Control** : git
+- **Duration** : 3 months
 
 ## Links
 
