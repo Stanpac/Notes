@@ -1,5 +1,6 @@
 ---
 title: Home
+description: Game developer — Unreal Engine & Unity
 ---
 ## About This Site  
   
