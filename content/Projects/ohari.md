@@ -3,14 +3,14 @@ title: Ohari
 description: describes the project in a few words.
 engine: Unity
 language: C#
-role: Lead Programmer
+role: Gameplay programmer
 team: 5 people
 duration: 6 month
 year: 2023
-github: "https://github.com/Stanpac/Ohari"
-itch: "https://asakim-the-mist-warden.itch.io/ohari"
+github: https://github.com/Stanpac/Ohari
+itch: https://asakim-the-mist-warden.itch.io/ohari
 build: ""
-trailer: "https://youtu.be/yTN-SgS8Dxw"
+trailer: https://youtu.be/yTN-SgS8Dxw
 ---
 
 ## Overview
@@ -24,7 +24,7 @@ As you move forward, watch your encyclopedia grows, fill in all of your last pic
 - **Moteur** : Unity
 - **Langage** : C#
 - **Version Control** : git
-- **Rôle** : Lead Programmer
+- **Rôle** : Gameplay programmer
 - **Team** : 5 people
 - **Years** : 2023
 - **Duration** : 6 months

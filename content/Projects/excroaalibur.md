@@ -15,8 +15,7 @@ trailer: ""
 
 ## Overview
 
-Short description of the project, what it is, what it's about, and why it's interesting.
-try to catch the reader's attention and make them want to learn more about the project.
+Excroalibur is a tactical turn-based game where you play as a team of three frogs trying to survive against infinite waves of enemies. After getting their hands on a legendary sword guarded by equally foolish knights, the frogs must defend themselves and escape by using the weapon in the most questionable way possible: throwing it. By passing the sword between teammates, players can power it up and use it to deal with stronger and stronger enemies, creating a combat system built around strategy, teamwork, and absurdity.
 
 ## Technical Details
 
@@ -39,22 +38,17 @@ try to catch the reader's attention and make them want to learn more about the p
 <img src="/Projects/Assets/Excroaalibur/Excroaalibur_Screenshoot_1.png" alt="Screenshot 1">
 </Carousel>
 
-## Gameplay
-
-What is the gameplay like? What are the core mechanics? What makes it fun and engaging?
-Describe the player's experience and how the mechanics support that experience.
-
 ## My Role
 
-Describe my role in the project, what i were responsible for, and how i contributed to the overall project.
+I was the lead programmer on a team of three programmers. My role included structuring the team’s workload, writing and assigning tasks, and making sure development progressed smoothly and efficiently. I also worked closely with the other departments to understand their technical needs and translate them into clear programming objectives.  
+In addition to this coordination work, I remained actively involved in development by implementing gameplay mechanics, designing system architecture, and contributing to the project’s core technical systems.
 
 ## Challenges
 
-What were the main challenges i faced during the development of this project?
-How did i overcome them? What did i learn from those challenges?
+One of the main challenges in this project was building a system able to preview the result of certain actions before they were actually executed in-game. This required us to split the action logic into two separate parts: a pre-calculation phase that simulated the result and stored the necessary data, and an execution phase that used this stored data to play the action while updating the UI, meshes, and other visual elements at the right time. Making these two systems work together cleanly and reliably was one of the most demanding technical aspects of the project.
 
+Another important challenge for me was designing the visualization system that showed where actions could or could not be performed. To achieve this, each tile used a canvas on a dedicated layer that was updated according to movement or action availability. A camera rendered only this layer to a texture, and I then used a shader to project it as a decal onto the environment so the player could clearly read the available zones. This was a very interesting system to work on because it involved both gameplay logic and rendering techniques.
 ## Conclusion
 
-What are my overall thoughts on this project ?
-if i want to add some thoughts. 
-
+I really enjoyed working on this project, as it was both highly rewarding and genuinely interesting from start to finish. It was the first time I had such an important role as a lead programmer, and it gave me a much clearer understanding of how demanding this position can be, but also how essential it is to a project’s overall success.  
+Beyond the technical work itself, this experience taught me a lot about responsibility, communication, and team organization, and it made this project especially valuable for my growth as a developer.

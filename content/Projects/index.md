@@ -25,7 +25,7 @@ Lead programmer
 
 <div class="card">
 <a href="/Projects/unannouncedProject">
-<img class="card-img-top" src="/Projects/Assets/imageProjectTest.png" alt="Unannounced project">
+<img class="card-img-top" src="/Projects/Assets/BlackBackground.jpg" alt="Unannounced project">
 <div class="card-body">
 
 ### Unannounced Project
