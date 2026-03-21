@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "stanpac.fr",
-    ignorePatterns: ["private", "templates", ".obsidian", "Backend"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Backend", "Notes"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

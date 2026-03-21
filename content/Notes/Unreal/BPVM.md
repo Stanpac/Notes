@@ -1,5 +1,5 @@
 ---
-title: Basic Notes
+title: Blueprints Virtual Machine
 tags:
 draft: true
 ---
