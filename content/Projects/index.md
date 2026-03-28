@@ -45,7 +45,7 @@ Lead programmer
 ### Unannounced Project
 Gameplay & Tools programmer
 
-`Unreal Engine 5` `C++` `Blueprints` `Professional project` `2024-2025`
+`Unreal Engine 5` `C++` `Blueprints` `Professional project` `2023-2025`
 
 </div>
 </a>

@@ -39,4 +39,6 @@ At its core, the system revolves around three components:
 
 ## Links
 
+You can add the package to your project using the Git URL below.
+
 - [GitHub](https://github.com/Stanpac/StanpacPackages/tree/main/Packages/com.stanpac.pacattributessystem)

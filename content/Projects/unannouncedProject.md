@@ -6,7 +6,7 @@ language: C++, Blueprints
 role: Programmer
 team: ??
 duration: 2 years
-year: 2024-2025
+year: 2023-2025
 github: ""
 itch: ""
 build: ""
@@ -15,7 +15,9 @@ trailer: ""
 
 ## Overview
 
-WIP
+Contributed over two years to the development of an unannounced title on Unreal Engine. Responsibilities included gameplay feature development, animation integration and animation controller maintenance, AI development and behavior tree design.    
+Version control and workflow management were handled through both Perforce and Git.   
+Further details cannot be disclosed due to a non-disclosure agreement.
 
 ## Technical Details
 
@@ -23,8 +25,7 @@ WIP
 - **Langage** : C++
 - **Version Control** : git, perforce
 - **Rôle** : Gameplay Programmer
-- **Team** : 4 people
-- **Years** : 2024
+- **Years** : 2023 - 2025
 - **Duration** : 2 years
 
 
