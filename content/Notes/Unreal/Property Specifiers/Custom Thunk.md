@@ -5,6 +5,7 @@ tags:
   - PropertySpecifiers
 draft: false
 ---
+
 Quand tu veux contrôler manuellement comment le [[BPVM]] appelle une fonction native, au lieu de laisser l'[[UHT]] générer le pont automatiquement.
 ## C'est quoi un thunk ?
 
@@ -17,25 +18,6 @@ Par exemple, le nœud `+` float dans le graphe est lié à `UKismetMathLibrary::
 Par défaut, l'[[UHT]] génère automatiquement le thunk pour toute `UFUNCTION(BlueprintCallable)`, tu peux le voir dans les fichiers `.gen.cpp` via le macro `DEFINE_FUNCTION`.
 
 Avec `CustomThunk`, tu dis au moteur de ne pas générer de thunk automatiquement. Tu fournis toi-même le `DEFINE_FUNCTION`, et le moteur se contente de le linker au nœud dans le graphe.
-
-## La mémoire des paramètres
-
-Avant chaque appel de fonction, le [[BPVM]] :
-
-1. Lit le `UFunction*` linké au nœud
-2. Alloue un bloc mémoire (`parms memory`) = somme des `sizeof` de chaque paramètre
-3. Copie les variables du graphe dans ce bloc
-4. Expose ce bloc via `FFrame::Locals` (`uint8*`)
-
-C'est ce bloc que les macros comme `PARAM_PASSED_BY_VAL` traversent, octet par octet.
-
-```cpp
-// Pour void Function(float A, double B) :
-// Locals[0..3]  → float A  (4 octets)
-// Locals[4..11] → double B (8 octets)
-```
-
----
 
 ## Structure d'un custom thunk
 
@@ -71,12 +53,12 @@ DEFINE_FUNCTION(UYourClass::execSum)
 
 ### Les macros clés
 
-|Macro|Rôle|
-|---|---|
-|`PARAM_PASSED_BY_VAL(Name, FProp, Type)`|Lit un paramètre depuis `FFrame::Locals`|
-|`P_FINISH`|Signale la fin du parcours de la stack|
-|`P_NATIVE_BEGIN` / `P_NATIVE_END`|Scope pour le profiler (Insights)|
-|`RESULT_PARAM`|`void*` pointant sur la zone de retour|
+| Macro                                    | Rôle                                     |
+| ---------------------------------------- | ---------------------------------------- |
+| `PARAM_PASSED_BY_VAL(Name, FProp, Type)` | Lit un paramètre depuis `FFrame::Locals` |
+| `P_FINISH`                               | Signale la fin du parcours de la stack   |
+| `P_NATIVE_BEGIN` / `P_NATIVE_END`        | Scope pour le profiler (Insights)        |
+| `RESULT_PARAM`                           | `void*` pointant sur la zone de retour   |
 
 ### Retourner une valeur
 

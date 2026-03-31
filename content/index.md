@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Stanpac
 description: Game developer — Unreal Engine & Unity
 ---
 ## About This Site  
