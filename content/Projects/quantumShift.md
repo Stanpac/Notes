@@ -15,7 +15,7 @@ trailer: ""
 
 ## Overview
 
-WIP
+QuantumShift is a first-person arena shooter where you face waves of drones and a final boss drone in a contained combat space. The core mechanic revolves around gravity inversion, letting you flip between the floor and the ceiling of the arena to reposition, dodge, and find new angles of attack.
 
 ## Technical Details
 
@@ -41,13 +41,14 @@ WIP
 
 ## My Role
 
-WIP
+As one of two programmers on the project, I handled the player controls, the gravity inversion mechanic, UI and animation integration, and the boss drone AI.
 
 ## Challenges
 
-WIP
+The hardest challenge was the gravity system. Our original idea was to let the player move across all four walls of the arena and transition between them fluidly, but we ran into significant issues with camera rotation management and couldn't reach a satisfying result, which led us to scrap the idea and simplify it down to a straightforward gravity inversion between floor and ceiling.
 
+The small drone AI was another interesting challenge. To make them feel more threatening and dynamic, we implemented a flocking behavior inspired by fish schooling, where drones maintain distance from each other while collectively pursuing the player, giving the impression of a coordinated swarm rather than individual enemies.
 ## Conclusion
 
-WIP
+A somewhat frustrating project given the challenges we ran into and not being able to fully realize our original core mechanic, but one I still learned a great deal from.
 
