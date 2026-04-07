@@ -32,7 +32,7 @@ Sole developer
 ### Excroaalibur
 Lead programmer
 
-`Unity` `C#` `Independent project` `2026`
+`Steam` `Unity` `C#` `Independent project` `2026`
 </div>
 </a>
 </div>

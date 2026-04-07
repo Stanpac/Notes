@@ -29,7 +29,7 @@ Excroalibur is a tactical turn-based game where you play as a team of three frog
 
 ## Links
 
-- [play on itch.io](https://asakim-the-mist-warden.itch.io/excroalibur)
+- [play on Steam](https://store.steampowered.com/app/4392470/Excroaalibur)
 - [GitHub](https://github.com/pacistan/Excroaalibur)
 
 ## Screenshots
