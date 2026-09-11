@@ -15,10 +15,8 @@ trailer: ""
 
 ## Overview
 
-Contributed over two years to the development of an unannounced title on Unreal Engine. Responsibilities included gameplay feature development, animation integration and animation controller maintenance, AI development and behavior tree design.    
-Version control and workflow management were handled through both Perforce and Git.   
-Further details cannot be disclosed due to a non-disclosure agreement.
-
+Project developed on Unreal Engine 5, used as a playground to experiment with the engine's newer gameplay frameworks. Work included building a custom character movement system with Mover, designing AI behaviors with StateTree, and structuring the UI with the Model-View-ViewModel (MVVM) plugin. 
+All the Development is in C++
 ## Technical Details
 
 - **Moteur** : Unreal Engine 5
