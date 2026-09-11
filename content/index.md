@@ -1,6 +1,6 @@
 ---
 title: Stanpac
-description: Game developer — Unreal Engine & Unity
+description: Stanpac - Game developer,  Unreal Engine & Unity
 ---
 ## About This Site  
   
